@@ -65,7 +65,7 @@ The "classic" image store of the Docker Engine does not support multi-platform
 images. Switching to the containerd image store ensures that your Docker Engine
 can push, pull, and build multi-platform images.
 
-Creating a custom builder that uses the a driver with multi-platform support,
+Creating a custom builder that uses the driver with multi-platform support,
 such as the `docker-container` driver will let you build multi-platform images
 without switching to a different image store. However, you still won't be able
 to load the multi-platform images you build into your Docker Engine image
